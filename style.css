@@ -1,0 +1,115 @@
+body{
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.heading-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    widows: 50%; 
+}
+.heading{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: purple;
+    text-align: center;
+    text-decoration: underline;
+}
+form{
+    display: flex;
+   height: 800px;
+   width: 700px;
+    justify-content: center;
+    align-content: center;
+    widows: 50%;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rebeccapurple;
+    color: white;
+}
+form div{
+display: block;
+margin: 10px
+
+     
+} 
+label{
+ width: 140px;
+ display: inline-block;
+ justify-items: start;
+}
+input{
+ display: inline-block;
+ box-sizing: content-box;
+}
+.gender{
+ display: inline-block;
+ margin-left: 18px;
+}
+.gender input{
+ margin: 10px;
+}
+.address{
+ display: flex;
+}
+.address textarea{
+
+margin-left: 0px;
+}
+.address label{
+ margin-left: 10px;
+}
+.city{
+display: inline;
+}
+.city label{
+margin-left: 5px;
+}
+
+.a label , .b label , .c label{
+margin: 2px;
+display: inline-block
+}
+.Hobbies{
+display: inline-block;
+}
+.Hobbies label{
+margin-left: 2px;
+}
+.qulaification{
+display: inline;
+}
+.qulaification h4{
+text-align: center;
+text-transform: capitalize;
+letter-spacing: 1px;
+}
+.d{
+margin-left: 145px;
+}
+.Course label {
+display: inline-block;
+margin-left: 110px;
+
+}
+.btn {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.btn button{
+margin: 10px;
+}
+p{
+margin-left: 180px;
+} 
+.submit{
+    text-align: center;
+    /* background-color: rgb(26, 224, 26); */
+    background-color: aqua;
+    border: 6px solid black
+
+}
